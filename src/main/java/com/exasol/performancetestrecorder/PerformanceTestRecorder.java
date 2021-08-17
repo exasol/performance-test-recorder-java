@@ -89,13 +89,13 @@ public class PerformanceTestRecorder {
      * Functional interface for the method under test that can throw an exception.
      */
     @FunctionalInterface
-    interface RunnableWithException {
+    public interface RunnableWithException {
         /**
          * Method that can throw exceptions.
          * 
          * @throws Exception if something goes wrong
          */
         @SuppressWarnings("java:S112") // Exception is generic, but we just want to pass through everything here
-        void run() throws Exception;
+        public void run() throws Exception;
     }
 }
