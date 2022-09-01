@@ -2,3 +2,4 @@ error-tags:
   PTRJ:
     packages:
       - com.exasol.performancetestrecorder
+    highest-index: 3

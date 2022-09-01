@@ -13,6 +13,9 @@ import org.xml.sax.SAXException;
 
 import com.exasol.errorreporting.ExaError;
 
+/**
+ * This class allows retrieving the artifact id from a {@code pom.xml} file.
+ */
 public class ProjectArtifactIdGetter {
 
     /**
