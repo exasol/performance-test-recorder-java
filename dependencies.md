@@ -17,7 +17,6 @@
 | [JUnit Jupiter Engine][0]  | [Eclipse Public License v2.0][1] |
 | [JUnit Jupiter Params][0]  | [Eclipse Public License v2.0][1] |
 | [Hamcrest][7]              | [BSD License 3][8]               |
-| [mockito-core][9]          | [The MIT License][10]            |
 | [mockito-junit-jupiter][9] | [The MIT License][10]            |
 
 ## Plugin Dependencies

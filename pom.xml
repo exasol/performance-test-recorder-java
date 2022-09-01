@@ -8,7 +8,7 @@
     <description>Java library for writing performance test records.</description>
     <url>https://github.com/exasol/performance-test-recorder-java/</url>
     <properties>
-        <junit.version>5.7.2</junit.version>
+        <junit.version>5.9.0</junit.version>
     </properties>
     <distributionManagement>
         <snapshotRepository>
@@ -38,17 +38,17 @@
         <dependency>
             <groupId>com.exasol</groupId>
             <artifactId>error-reporting-java</artifactId>
-            <version>0.4.0</version>
+            <version>0.4.1</version>
         </dependency>
         <dependency>
             <groupId>com.opencsv</groupId>
             <artifactId>opencsv</artifactId>
-            <version>5.5.1</version>
+            <version>5.6</version>
         </dependency>
         <dependency>
             <groupId>org.eclipse.jgit</groupId>
             <artifactId>org.eclipse.jgit</artifactId>
-            <version>5.12.0.202106070339-r</version>
+            <version>6.2.0.202206071550-r</version>
         </dependency>
         <!-- test dependencies -->
         <dependency>
@@ -71,14 +71,8 @@
         </dependency>
         <dependency>
             <groupId>org.mockito</groupId>
-            <artifactId>mockito-core</artifactId>
-            <version>3.11.2</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.mockito</groupId>
             <artifactId>mockito-junit-jupiter</artifactId>
-            <version>3.11.2</version>
+            <version>4.7.0</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

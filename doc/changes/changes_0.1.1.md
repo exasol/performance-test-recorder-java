@@ -12,6 +12,20 @@ This release updates dependencies.
 
 ## Dependency Updates
 
+### Compile Dependency Updates
+
+* Updated `com.exasol:error-reporting-java:0.4.0` to `0.4.1`
+* Updated `com.opencsv:opencsv:5.5.1` to `5.6`
+* Updated `org.eclipse.jgit:org.eclipse.jgit:5.12.0.202106070339-r` to `6.2.0.202206071550-r`
+* Updated `org.junit.jupiter:junit-jupiter-api:5.7.2` to `5.9.0`
+
+### Test Dependency Updates
+
+* Updated `org.junit.jupiter:junit-jupiter-engine:5.7.2` to `5.9.0`
+* Updated `org.junit.jupiter:junit-jupiter-params:5.7.2` to `5.9.0`
+* Removed `org.mockito:mockito-core:3.11.2`
+* Updated `org.mockito:mockito-junit-jupiter:3.11.2` to `4.7.0`
+
 ### Plugin Dependency Updates
 
 * Updated `com.exasol:error-code-crawler-maven-plugin:0.5.1` to `1.1.2`
