@@ -5,6 +5,11 @@ Code name: Updated dependencies
 ## Summary
 
 Dependency check build failed : updated dependencies to fix issue.
+Fixed vulnerability:
+* org.apache.commons:commons-text:jar:1.9
+ https://ossindex.sonatype.org/component/pkg:maven/org.apache.commons/commons-text@1.9?utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1
+* [CVE-2022-42889] CWE-94: Improper Control of Generation of Code ('Code Injection') (9.8); https://ossindex.sonatype.org/vulnerability/CVE-2022-42889?component-type=maven&component-name=org.apache.commons%2Fcommons-text&utm_source=ossindex-client&utm_medium=integration&utm_content=1.8.1
+* By updating `opencsv` dependency to `5.7.1`.
 
 ## Features
 
