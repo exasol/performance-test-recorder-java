@@ -6,7 +6,7 @@
 | Dependency                | License                                        |
 | ------------------------- | ---------------------------------------------- |
 | [JUnit Jupiter API][0]    | [Eclipse Public License v2.0][1]               |
-| [error-reporting-java][2] | [MIT][3]                                       |
+| [error-reporting-java][2] | [MIT License][3]                               |
 | [opencsv][4]              | [Apache 2][5]                                  |
 | [JGit - Core][6]          | Eclipse Distribution License (New BSD License) |
 
@@ -47,8 +47,8 @@
 
 [0]: https://junit.org/junit5/
 [1]: https://www.eclipse.org/legal/epl-v20.html
-[2]: https://github.com/exasol/error-reporting-java
-[3]: https://opensource.org/licenses/MIT
+[2]: https://github.com/exasol/error-reporting-java/
+[3]: https://github.com/exasol/error-reporting-java/blob/main/LICENSE
 [4]: http://opencsv.sf.net
 [5]: http://www.apache.org/licenses/LICENSE-2.0.txt
 [6]: https://www.eclipse.org/jgit/
