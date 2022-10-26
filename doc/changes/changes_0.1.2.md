@@ -1,6 +1,6 @@
 # Performance Test Recorder Java 0.1.2, released 2022-10-26
 
-Code name: Dependency check build fails : updated dependencies
+Code name: Updated dependencies
 
 ## Summary
 
@@ -8,7 +8,7 @@ Dependency check build failed : updated dependencies to fix issue.
 
 ## Features
 
-* #6:Dependency check build fails : updated dependencies
+* #6: Dependency check build fails: updated dependencies
 
 ## Dependency Updates
 
