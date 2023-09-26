@@ -56,6 +56,13 @@
             <version>5.5.0</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <!-- Enable logging for jgit -->
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-jdk14</artifactId>
+            <version>1.7.36</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
     <build>
         <plugins>

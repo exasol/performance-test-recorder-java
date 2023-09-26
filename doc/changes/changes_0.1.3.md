@@ -24,6 +24,7 @@ This release fixes CVE-2023-4759 in dependency `org.eclipse.jgit:org.eclipse.jgi
 * Updated `org.junit.jupiter:junit-jupiter-engine:5.9.1` to `5.10.0`
 * Updated `org.junit.jupiter:junit-jupiter-params:5.9.1` to `5.10.0`
 * Updated `org.mockito:mockito-junit-jupiter:4.8.1` to `5.5.0`
+* Added `org.slf4j:slf4j-jdk14:1.7.36`
 
 ### Plugin Dependency Updates
 
