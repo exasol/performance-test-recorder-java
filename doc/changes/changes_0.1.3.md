@@ -1,4 +1,4 @@
-# Performance Test Recorder Java 0.1.3, released 2023-09-26
+# Performance Test Recorder Java 0.1.3, released 2023-09-27
 
 Code name: Fix CVE-2023-4759 in `org.eclipse.jgit:org.eclipse.jgit`
 
