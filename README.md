@@ -1,7 +1,7 @@
 # Performance Test Recorder Java
 
 [![Build Status](https://github.com/exasol/performance-test-recorder-java/actions/workflows/ci-build.yml/badge.svg)](https://github.com/exasol/performance-test-recorder-java/actions/workflows/ci-build.yml)
-[![Maven Central – Performance Test Recorder Java](https://img.shields.io/maven-central/v/com.exasol/performance-test-recorder-java)](https://search.maven.org/artifact/com.exasol/performance-test-recorder-java)
+[![Maven Central &ndash; Performance Test Recorder Java](https://img.shields.io/maven-central/v/com.exasol/performance-test-recorder-java)](https://search.maven.org/artifact/com.exasol/performance-test-recorder-java)
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=com.exasol%3Aperformance-test-recorder-java&metric=alert_status)](https://sonarcloud.io/dashboard?id=com.exasol%3Aperformance-test-recorder-java)
 
