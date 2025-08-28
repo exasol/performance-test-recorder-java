@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.exasol</groupId>
     <artifactId>performance-test-recorder-java</artifactId>
-    <version>0.1.4</version>
+    <version>0.1.5</version>
     <name>Performance Test Recorder Java</name>
     <description>Java library for writing performance test records.</description>
     <url>https://github.com/exasol/performance-test-recorder-java/</url>
@@ -26,7 +26,7 @@
         <dependency>
             <groupId>com.opencsv</groupId>
             <artifactId>opencsv</artifactId>
-            <version>5.11.1</version>
+            <version>5.12.0</version>
             <exclusions>
                 <!-- Surefire fails test execution when Jupiter Engine is on the classpath -->
                 <exclusion>
@@ -34,6 +34,7 @@
                     <artifactId>junit-vintage-engine</artifactId>
                 </exclusion>
             </exclusions>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.eclipse.jgit</groupId>
@@ -74,7 +75,7 @@
             <plugin>
                 <groupId>com.exasol</groupId>
                 <artifactId>project-keeper-maven-plugin</artifactId>
-                <version>5.1.0</version>
+                <version>5.2.3</version>
                 <executions>
                     <execution>
                         <goals>
@@ -88,7 +89,7 @@
     <parent>
         <artifactId>performance-test-recorder-java-generated-parent</artifactId>
         <groupId>com.exasol</groupId>
-        <version>0.1.4</version>
+        <version>0.1.5</version>
         <relativePath>pk_generated_parent.pom</relativePath>
     </parent>
 </project>
