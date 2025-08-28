@@ -41,12 +41,12 @@
 | [Apache Maven GPG Plugin][32]                           | [Apache-2.0][15]                            |
 | [Apache Maven Source Plugin][33]                        | [Apache License, Version 2.0][15]           |
 | [Apache Maven Javadoc Plugin][34]                       | [Apache-2.0][15]                            |
-| [Nexus Staging Maven Plugin][35]                        | [Eclipse Public License][36]                |
-| [JaCoCo :: Maven Plugin][37]                            | [EPL-2.0][38]                               |
-| [Quality Summarizer Maven Plugin][39]                   | [MIT License][40]                           |
-| [error-code-crawler-maven-plugin][41]                   | [MIT License][42]                           |
-| [Git Commit Id Maven Plugin][43]                        | [GNU Lesser General Public License 3.0][44] |
-| [Project Keeper Maven plugin][45]                       | [The MIT License][46]                       |
+| [Central Publishing Maven Plugin][35]                   | [The Apache License, Version 2.0][15]       |
+| [JaCoCo :: Maven Plugin][36]                            | [EPL-2.0][37]                               |
+| [Quality Summarizer Maven Plugin][38]                   | [MIT License][39]                           |
+| [error-code-crawler-maven-plugin][40]                   | [MIT License][41]                           |
+| [Git Commit Id Maven Plugin][42]                        | [GNU Lesser General Public License 3.0][43] |
+| [Project Keeper Maven plugin][44]                       | [The MIT License][45]                       |
 
 [0]: https://junit.org/junit5/
 [1]: https://www.eclipse.org/legal/epl-v20.html
@@ -83,15 +83,14 @@
 [32]: https://maven.apache.org/plugins/maven-gpg-plugin/
 [33]: https://maven.apache.org/plugins/maven-source-plugin/
 [34]: https://maven.apache.org/plugins/maven-javadoc-plugin/
-[35]: http://www.sonatype.com/public-parent/nexus-maven-plugins/nexus-staging/nexus-staging-maven-plugin/
-[36]: http://www.eclipse.org/legal/epl-v10.html
-[37]: https://www.jacoco.org/jacoco/trunk/doc/maven.html
-[38]: https://www.eclipse.org/legal/epl-2.0/
-[39]: https://github.com/exasol/quality-summarizer-maven-plugin/
-[40]: https://github.com/exasol/quality-summarizer-maven-plugin/blob/main/LICENSE
-[41]: https://github.com/exasol/error-code-crawler-maven-plugin/
-[42]: https://github.com/exasol/error-code-crawler-maven-plugin/blob/main/LICENSE
-[43]: https://github.com/git-commit-id/git-commit-id-maven-plugin
-[44]: http://www.gnu.org/licenses/lgpl-3.0.txt
-[45]: https://github.com/exasol/project-keeper/
-[46]: https://github.com/exasol/project-keeper/blob/main/LICENSE
+[35]: https://central.sonatype.org
+[36]: https://www.jacoco.org/jacoco/trunk/doc/maven.html
+[37]: https://www.eclipse.org/legal/epl-2.0/
+[38]: https://github.com/exasol/quality-summarizer-maven-plugin/
+[39]: https://github.com/exasol/quality-summarizer-maven-plugin/blob/main/LICENSE
+[40]: https://github.com/exasol/error-code-crawler-maven-plugin/
+[41]: https://github.com/exasol/error-code-crawler-maven-plugin/blob/main/LICENSE
+[42]: https://github.com/git-commit-id/git-commit-id-maven-plugin
+[43]: http://www.gnu.org/licenses/lgpl-3.0.txt
+[44]: https://github.com/exasol/project-keeper/
+[45]: https://github.com/exasol/project-keeper/blob/main/LICENSE
