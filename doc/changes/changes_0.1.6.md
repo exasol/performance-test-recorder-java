@@ -1,12 +1,14 @@
-# Performance Test Recorder Java 0.1.6, released 2026-??-??
+# Performance Test Recorder Java 0.1.6, released 2026-06-10
 
-Code name:
+Code name: Fix dependency check
 
 ## Summary
 
-## Features
+This release fixes the dependency check CI build by configuring credentials for Ossindex.
 
-* ISSUE_NUMBER: description
+## Security
+
+* #15: Fixed dependency check CI build
 
 ## Dependency Updates
 
