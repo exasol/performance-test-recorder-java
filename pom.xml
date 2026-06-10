@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.exasol</groupId>
     <artifactId>performance-test-recorder-java</artifactId>
-    <version>0.1.5</version>
+    <version>0.1.6</version>
     <name>Performance Test Recorder Java</name>
     <description>Java library for writing performance test records.</description>
     <url>https://github.com/exasol/performance-test-recorder-java/</url>
     <properties>
-        <junit.version>5.13.0</junit.version>
+        <junit.version>5.14.4</junit.version>
     </properties>
     <dependencies>
         <dependency>
@@ -21,7 +21,7 @@
         <dependency>
             <groupId>com.exasol</groupId>
             <artifactId>error-reporting-java</artifactId>
-            <version>1.0.1</version>
+            <version>1.0.2</version>
         </dependency>
         <dependency>
             <groupId>com.opencsv</groupId>
@@ -58,7 +58,7 @@
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-junit-jupiter</artifactId>
-            <version>5.18.0</version>
+            <version>5.23.0</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -75,7 +75,7 @@
             <plugin>
                 <groupId>com.exasol</groupId>
                 <artifactId>project-keeper-maven-plugin</artifactId>
-                <version>5.2.3</version>
+                <version>5.6.2</version>
                 <executions>
                     <execution>
                         <goals>
@@ -89,7 +89,7 @@
     <parent>
         <artifactId>performance-test-recorder-java-generated-parent</artifactId>
         <groupId>com.exasol</groupId>
-        <version>0.1.5</version>
+        <version>0.1.6</version>
         <relativePath>pk_generated_parent.pom</relativePath>
     </parent>
 </project>
